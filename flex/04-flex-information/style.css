@@ -11,9 +11,8 @@ The item text is centered.
 body {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
-
-
 }
+
 .items { 
   display: flex; 
   justify-content: center;
@@ -22,7 +21,6 @@ body {
 
 .item {
   width: 200px;
-
 }
 
 img {

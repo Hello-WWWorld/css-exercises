@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+
+
+.group1 {
+    background-color: lightpink;
+    font-family: Verdana, "dejaVu Sans", sans-serif;
+}
+
+
+#special1 {
+    color: blue;
+    font-size: 36px;
+}
+
+.more {
+    font-size: 24px;
+}
+
+#special2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -14,18 +14,20 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  align-items: center;
+  padding: 8px;
 }
 
 .left {
   display: flex;
-  gap: 12px;
+  gap: 16px;
   align-items: center;
 }
 
 .right {
   display: flex;
-  gap: 12px;
+  gap: 16px;
+  align-items: center;
 }
 
 .profile-image {
@@ -48,7 +50,7 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 8px 24px; 
 }
 
 a {

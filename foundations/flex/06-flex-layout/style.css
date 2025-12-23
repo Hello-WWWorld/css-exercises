@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 20px;
 }
 
 input {
@@ -35,19 +36,31 @@ li {
 
 a {
   text-decoration: none;
+  color: #7e7a75;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 16px;
+  padding: 0px;
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   margin: auto;
+  gap: 12px;
 }
-
 
 .header,
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
 .footer {
   margin-top: auto; /* margin gets added on top of the footer */
+  background-color:#eeeeee;
 }

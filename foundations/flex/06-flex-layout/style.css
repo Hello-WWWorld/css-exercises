@@ -37,6 +37,11 @@ a {
   text-decoration: none;
 }
 
+.content {
+  margin: auto;
+}
+
+
 .header,
 .footer {
   display: flex;

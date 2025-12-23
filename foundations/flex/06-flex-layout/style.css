@@ -6,6 +6,8 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -31,9 +33,16 @@ li {
   display: inline;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header,
 .footer {
   display: flex;
   justify-content: space-between;
 }
 
+.footer {
+  margin-top: auto; /* margin gets added on top of the footer */
+}

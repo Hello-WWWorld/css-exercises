@@ -5,6 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  text-align: center;
 }
 
 img {
@@ -24,3 +25,15 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
